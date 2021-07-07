@@ -1,0 +1,147 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.mainDiv {
+  width: 29vw;
+  height: 29vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 2%;
+}
+
+.mainDiv:nth-of-type(1) {
+  background-color: red;
+}
+
+.mainDiv:nth-of-type(2) {
+  background-color: yellow;
+}
+
+.mainDiv:nth-of-type(3) {
+  background-color: blue;
+}
+
+.midDiv {
+  font-weight: bold;
+}
+
+div:nth-of-type(1) .midDiv {
+  text-transform: uppercase;
+  font-size: 2.6vw;
+}
+
+div:nth-of-type(2) .midDiv {
+  text-transform: uppercase;
+  font-size: 2.4vw;
+}
+
+div:nth-of-type(3) .midDiv {
+  color: green;
+  text-shadow: 8px 2px 10px #000000;
+  font-size: 1.9vw;
+}
+
+.bottomDiv {
+  font-weight: bold;
+  height: 30%;
+}
+
+div:nth-of-type(1) .bottomDiv {
+  color: yellow;
+  font-size: 3.5vw;
+}
+
+div:nth-of-type(2) .bottomDiv {
+  color: red;
+  font-size: 2vw;
+}
+div:nth-of-type(3) .bottomDiv {
+  color: yellow;
+  font-size: 2.2vw;
+}
+
+div:nth-of-type(2) .bottomDiv :nth-child(odd) {
+  color: black;
+}
+
+div:nth-of-type(2) .bottomDiv :nth-child(5) {
+  color: black;
+  font-weight: normal;
+}
+
+.topDiv {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25%;
+  justify-content: space-around;
+  align-self: flex-start;
+}
+
+.logoDiv {
+  background-image: url("./logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 7.08vw;
+}
+
+.locationDiv {
+  color: white;
+  text-shadow: 8px 2px 10px #000000;
+  font-size: 1.4vw;
+  margin: auto;
+}
+
+p {
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainDiv {
+    width: 90vw;
+    height: 90vw;
+  }
+  .logoDiv {
+    width: 25vw;
+  }
+  .locationDiv {
+    font-size: 4vw;
+  }
+  div:nth-of-type(1) .midDiv {
+    font-size: 8vw;
+  }
+
+  div:nth-of-type(2) .midDiv {
+    font-size: 7vw;
+  }
+
+  div:nth-of-type(3) .midDiv {
+    font-size: 5vw;
+  }
+  div:nth-of-type(1) .bottomDiv {
+    font-size: 9vw;
+  }
+
+  div:nth-of-type(2) .bottomDiv {
+    font-size: 5vw;
+  }
+  div:nth-of-type(3) .bottomDiv {
+    font-size: 7vw;
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "obrazek1": {
+        "header": "Szpital Węzłowy",
+        "logo": "logo",
+        "location": "Wojewódzki Szpital <br/> im. Zofii z Zamoyskich Tarnowskiej <br/> w Tarnobrzegu",
+        "header1" : "Szczepienia<br/> przeciwko<br/> COVID-19"
+
+    },
+    "obrazek2": 
+    { 
+        "header": "Punkt pobrań<br/>wymazów SARS-COV-2",
+        "logo": "logo",
+        "location": "Wojewódzki Szpital <br/> im. Zofii z Zamoyskich Tarnowskiej <br/> w Tarnobrzegu",
+        "header1" :
+         "<p>dni powszednie:</p><p>od 7:00 do 13:00</p><p>soboty i niedziele</p><p>od 8:00 do 12:00</p><p>(kliknij po więcej informacji)</p>"
+    },
+    "obrazek3": 
+    { 
+        "header": "Dodatkowe numery dla<br/> Poradni Nocnej i Świątecznej<br/> Opieki Zdrowotnej",
+        "logo": "logo",
+        "location": "Wojewódzki Szpital <br/> im. Zofii z Zamoyskich Tarnowskiej <br/> w Tarnobrzegu",
+        "header1" : "tel. 519-086-623 - Pielęgniarki<br/> tel. 519-096-622 - Lekarze"
+    }
+}
